@@ -1,21 +1,3 @@
-/*
-THEME NAME: jtmfolio
-THEME URI: http://jtm-folio.com/wordpress/wp-content/jtmfolio
-DESCRIPTION: jtmfolio theme
-VERSION: 1.0
-AUTHOR: Jared T. Miller
-AUTHOR URI: http://jtm-folio.com/
-*/
-
-/* -------------------------------------------------------------- 
-  
-   Reset default browser CSS.
-   
-   Based on work by Eric Meyer:
-   * meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/
-   
--------------------------------------------------------------- */
-
 body {
 	font-family: Helvetica;
         font-style: oblique;
