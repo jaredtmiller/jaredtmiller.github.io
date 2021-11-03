@@ -1,0 +1,213 @@
+/*
+THEME NAME: jtmfolio
+THEME URI: http://jtm-folio.com/wordpress/wp-content/jtmfolio
+DESCRIPTION: jtmfolio theme
+VERSION: 1.0
+AUTHOR: Jared T. Miller
+AUTHOR URI: http://jtm-folio.com/
+*/
+
+/* -------------------------------------------------------------- 
+  
+   Reset default browser CSS.
+   
+   Based on work by Eric Meyer:
+   * meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/
+   
+-------------------------------------------------------------- */
+
+body {
+	font-family: Helvetica;
+        font-style: oblique;
+        text-shadow: 2px 2px #555555;
+        color: #fff;
+        margin: 0;
+        background: #333;
+        background-attachment: fixed;
+        background-size: cover;
+     }
+img {
+        border-style: none;
+        
+}
+a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+ }
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-style: double;
+  font-weight: bold;
+}
+
+h3 {
+font-weight: lighter;
+font-size: 155%;
+}
+
+#Header {
+	float: right;
+        clear: both;
+        font-size: 200%;
+        margin: 20px;
+}
+
+#intro {
+     float: left;
+     margin: 75px 20px 20px 20px;
+     width: 450px;
+}
+.name{
+font-size:200%;
+line-height: 50%;
+margin: 0px 0px 20px 0px;
+}
+
+.grafs{
+margin:20px 0px 0px 0px;
+}
+
+#linksbox {
+width:450px;
+float:left;
+clear:left;
+margin:20px;
+font-size:125%;
+}
+
+#pub_logos {
+width:500px;
+float:right;
+}
+
+.pub_logos_rollover{
+width:500px;
+float:right;
+}
+
+.nymag_logo {
+float:right;
+}
+.intercept_logo {
+float:right;
+}
+.newsweek_logo {
+float:right;
+}
+.time_logo { 
+float:right;
+}
+
+#jtm {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 370%;
+	float: left;
+	}
+#pagetype {
+	color: #888;
+	font-size: 370%;
+	margin: 0px 10px;
+	padding: 0px 20px;
+	}
+
+#content {
+        float: left;
+        clear: both;
+        width: 700px;
+        color: #fff;
+        font-weight: normal;
+        margin:20px;
+	}
+#date {
+        font-size: 65%;
+        color: #fff;
+        margin: 20px;
+        text-shadow: 0px 0px;
+        }
+        
+#cliplink {
+        font-size: 190%;
+        color: #fff;
+        }
+#entry {
+        
+        font-size: 100%;
+        color: #888;
+        margin: 20px;
+        }
+#pubdate {
+        font-size: 75%;
+        font-variant: small-caps;
+        color: #fff;
+        }
+#thumb {
+       float: left;
+       margin: 0px 30px 0px 0px;
+       border: 5px solid #888;
+       }
+#description {
+       color: #fff;
+       font-size: 90%;
+       margin: 5px auto;
+}
+ 
+
+
+strong {
+    font-variant: small-caps;
+}
+
+#copyright {
+float:left;
+clear:both;
+font-size:50%;
+margin: 20px;
+
+
+}
+
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('../img/videoframe.jpg') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}
+
